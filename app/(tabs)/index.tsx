@@ -4,7 +4,7 @@ import { Text, View } from 'react-native';
 const Index = () => {
 	return (
 		<View className='flex-1 bg-red-600'>
-			<Text className=''>This is home page</Text>
+			<Text className='text-primary'>This is home page</Text>
 		</View>
 	);
 };
