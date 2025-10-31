@@ -3,3 +3,26 @@
 @import 'tailwindcss/utilities.css';
 
 @import 'nativewind/theme';
+
+@theme {
+	--color-primary: '#fc3c44';
+	--color-background: '#000';
+	--color-text: '#fff';
+	--color-textMuted: '#9ca3af';
+	--color-icon: '#fff';
+	--color-maximumTrackTintColor: 'rgba(255, 255, 255, 0.4)';
+	--color-minimumTrackTintColor: 'rgba(255, 255, 255, 0.6)';
+
+	--text-xs: 12px;
+	--text-sm: 16px;
+	--text-base: 20px;
+	--text-lg: 24px;
+}
+
+.defaultStyles {
+	@apply flex-1 bg-background;
+}
+
+.text {
+	@apply text-base text-text;
+}

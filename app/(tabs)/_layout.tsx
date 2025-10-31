@@ -7,6 +7,7 @@ import FontAwesome from '@expo/vector-icons/FontAwesome';
 import FontAwesome6 from '@expo/vector-icons/FontAwesome6';
 import Ionicons from '@expo/vector-icons/Ionicons';
 import MaterialIcons from '@expo/vector-icons/MaterialIcons';
+
 import { BlurView } from 'expo-blur';
 
 export default function TabLayout() {
@@ -18,7 +19,7 @@ export default function TabLayout() {
 				headerShown: false,
 				tabBarBackground: () => (
 					<BlurView
-						intensity={95}
+						intensity={40}
 						style={{
 							...StyleSheet.absoluteFillObject,
 						}}
